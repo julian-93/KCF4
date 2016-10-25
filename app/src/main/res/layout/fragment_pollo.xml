@@ -1,0 +1,447 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.kfc.julianalmanza.kfc.Pollo_fragment"
+    android:background="@color/white"
+    >
+
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10sp"
+        android:id="@+id/lts">
+
+
+    </ListView>
+
+
+        <!--<ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/disfrutapollo"
+                    android:textSize="30sp"
+                    android:layout_marginTop="15sp"
+                    android:textColor="@color/maroon"
+                    android:typeface="serif"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="80sp"
+                        android:layout_height="80sp"
+                        android:src="@drawable/ok2"
+                        android:layout_gravity="center"
+                        />
+
+                    <ImageView
+                        android:layout_width="150sp"
+                        android:layout_height="180sp"
+                        android:src="@drawable/kfc"
+                        android:layout_gravity="center"
+                        />
+
+                    <ImageView
+                        android:layout_width="80sp"
+                        android:layout_height="80sp"
+                        android:src="@drawable/ok"
+                        android:layout_gravity="center"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="25sp"
+                    android:layout_marginRight="15sp"
+                    android:layout_marginLeft="15sp"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/brown"
+                        android:textSize="30sp"
+                        android:gravity="center"
+                        android:textColor="@color/whitesmoke"
+                        android:id="@+id/megavariedad"
+                        android:typeface="serif"
+                        android:text="@string/megavariedad"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="0sp"
+                        android:textSize="17sp"
+                        android:background="@color/lightgray"
+                        android:id="@+id/descripcion_megavariedad"
+                        android:textColor="@color/black"
+                        android:text="@string/descripcion_megavariedad"
+                        />
+                    <ImageView
+                        android:layout_width="300sp"
+                        android:layout_height="200sp"
+                        android:layout_gravity="center"
+                        android:id="@+id/imagen_megavariedad"
+                        android:layout_marginTop="13sp"
+                        android:src="@drawable/kfc_mega_variedad"
+                        />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="15sp"
+                    android:layout_marginRight="15sp"
+                    android:layout_marginLeft="15sp"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/brown"
+                        android:textSize="30sp"
+                        android:textColor="@color/whitesmoke"
+                        android:gravity="center"
+                        android:id="@+id/bucket7"
+                        android:typeface="serif"
+                        android:text="@string/bucket7"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="0sp"
+                        android:textSize="17sp"
+                        android:id="@+id/descripcion_bucket7"
+                        android:background="@color/lightgray"
+                        android:textColor="@color/black"
+                        android:text="@string/descripcion_bucket7"
+                        />
+                    <ImageView
+                        android:layout_width="300sp"
+                        android:layout_height="200sp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="13sp"
+                        android:id="@+id/imagen_bucket7"
+                        android:src="@drawable/kfc_bucket_7"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="15sp"
+                    android:layout_marginRight="15sp"
+                    android:layout_marginLeft="15sp"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/brown"
+                        android:textSize="30sp"
+                        android:gravity="center"
+                        android:textColor="@color/whitesmoke"
+                        android:id="@+id/megaeconomico"
+                        android:typeface="serif"
+                        android:text="@string/megaeconomico"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="0sp"
+                        android:textSize="17sp"
+                        android:id="@+id/descripcion_megaeconomico"
+                        android:background="@color/lightgray"
+                        android:textColor="@color/black"
+                        android:text="@string/descripcion_megaeconomico"
+                        />
+                    <ImageView
+                        android:layout_width="300sp"
+                        android:layout_height="200sp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="13sp"
+                        android:id="@+id/imagen_megaeconomico"
+                        android:src="@drawable/kfc_mega_economico"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="15sp"
+                    android:layout_marginRight="15sp"
+                    android:layout_marginLeft="15sp"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/brown"
+                        android:textSize="30sp"
+                        android:gravity="center"
+                        android:textColor="@color/whitesmoke"
+                        android:id="@+id/megasinigual"
+                        android:typeface="serif"
+                        android:text="@string/megasinigual"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="0sp"
+                        android:textSize="17sp"
+                        android:id="@+id/descripcion_megasinigual"
+                        android:background="@color/lightgray"
+                        android:textColor="@color/black"
+                        android:text="@string/descripcion_megasinigual"
+                        />
+                    <ImageView
+                        android:layout_width="300sp"
+                        android:layout_height="200sp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="13sp"
+                        android:id="@+id/imagen_megasinigual"
+                        android:src="@drawable/kfc_mega_sin_igual"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="15sp"
+                    android:layout_marginRight="15sp"
+                    android:layout_marginLeft="15sp"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/brown"
+                        android:textSize="30sp"
+                        android:gravity="center"
+                        android:textColor="@color/whitesmoke"
+                        android:id="@+id/megafutbolero"
+                        android:typeface="serif"
+                        android:text="@string/megafutbolero"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="0sp"
+                        android:textSize="17sp"
+                        android:id="@+id/descripcion_megafutbolero"
+                        android:background="@color/lightgray"
+                        android:textColor="@color/black"
+                        android:text="@string/descripcion_megafutbolero"
+                        />
+                    <ImageView
+                        android:layout_width="300sp"
+                        android:layout_height="200sp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="13sp"
+                        android:id="@+id/imagen_megafutbolero"
+                        android:src="@drawable/kfc_mega_futbolero"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="15sp"
+                    android:layout_marginRight="15sp"
+                    android:layout_marginLeft="15sp"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/brown"
+                        android:textSize="30sp"
+                        android:gravity="center"
+                        android:textColor="@color/whitesmoke"
+                        android:id="@+id/mega1"
+                        android:typeface="serif"
+                        android:text="@string/mega1"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="0sp"
+                        android:textSize="17sp"
+                        android:id="@+id/descripcion_mega1"
+                        android:background="@color/lightgray"
+                        android:textColor="@color/black"
+                        android:text="@string/descripcion_mega1"
+                        />
+                    <ImageView
+                        android:layout_width="300sp"
+                        android:layout_height="200sp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="13sp"
+                        android:id="@+id/imagen_mega1"
+                        android:src="@drawable/kfc_mega_1"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="15sp"
+                    android:layout_marginRight="15sp"
+                    android:layout_marginLeft="15sp"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/brown"
+                        android:textSize="30sp"
+                        android:textColor="@color/whitesmoke"
+                        android:id="@+id/mega2"
+                        android:gravity="center"
+                        android:typeface="serif"
+                        android:text="@string/mega2"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="0sp"
+                        android:textSize="17sp"
+                        android:id="@+id/descripcion_mega2"
+                        android:background="@color/lightgray"
+                        android:textColor="@color/black"
+                        android:text="@string/descripcion_mega2"
+                        />
+                    <ImageView
+                        android:layout_width="300sp"
+                        android:layout_height="200sp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="13sp"
+                        android:id="@+id/imagen_mega_2"
+                        android:src="@drawable/kfc_mega_2"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="15sp"
+                    android:layout_marginRight="15sp"
+                    android:layout_marginLeft="15sp"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/brown"
+                        android:gravity="center"
+                        android:textSize="30sp"
+                        android:textColor="@color/whitesmoke"
+                        android:id="@+id/megahot"
+                        android:typeface="serif"
+                        android:text="@string/megahot"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="0sp"
+                        android:textSize="17sp"
+                        android:id="@+id/descripcion_megahot"
+                        android:background="@color/lightgray"
+                        android:textColor="@color/black"
+                        android:text="@string/descripcion_megahot"
+                        />
+                    <ImageView
+                        android:layout_width="300sp"
+                        android:layout_height="200sp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="13sp"
+                        android:id="@+id/imagen_megahot"
+                        android:src="@drawable/kfc_mega_hot_wings"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="15sp"
+                    android:layout_marginRight="15sp"
+                    android:layout_marginLeft="15sp"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/brown"
+                        android:textSize="30sp"
+                        android:textColor="@color/whitesmoke"
+                        android:id="@+id/megapop"
+                        android:typeface="serif"
+                        android:gravity="center"
+                        android:text="@string/megapop"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="0sp"
+                        android:textSize="17sp"
+                        android:id="@+id/descripcion_megapop"
+                        android:background="@color/lightgray"
+                        android:textColor="@color/black"
+                        android:text="@string/descripcion_megapop"
+                        />
+                    <ImageView
+                        android:layout_width="300sp"
+                        android:layout_height="200sp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="13sp"
+                        android:id="@+id/imagen_megapop"
+                        android:src="@drawable/kfc_mega_pop"
+                        android:layout_marginEnd="20sp"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </ScrollView>!-->
+
+
+</FrameLayout>

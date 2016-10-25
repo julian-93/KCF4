@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+    <!--
+    <ImageView
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:id="@+id/imagen"
+        android:src="@drawable/usuario"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100sp"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/nombre"
+            android:text="Hola mundo"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/apellido"
+            android:text="Hola perro"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/cosa"
+            android:text="Hola puto"
+            />
+
+    </LinearLayout> !-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="15sp"
+        android:layout_marginRight="15sp"
+        android:layout_marginLeft="15sp"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/brown"
+            android:textSize="30sp"
+            android:gravity="center"
+            android:textColor="@color/whitesmoke"
+            android:id="@+id/nombre"
+            android:typeface="serif"
+            android:text="@string/megavariedad"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0sp"
+            android:textSize="17sp"
+            android:background="@color/lightgray"
+            android:id="@+id/descripcion"
+            android:textColor="@color/black"
+            android:text="@string/descripcion_megavariedad"
+            />
+        <ImageView
+            android:layout_width="300sp"
+            android:layout_height="200sp"
+            android:layout_gravity="center"
+            android:id="@+id/imagen"
+            android:layout_marginTop="13sp"
+            android:src="@drawable/kfc_mega_variedad"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

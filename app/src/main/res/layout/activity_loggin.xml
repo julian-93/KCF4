@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/red"
+    tools:context="com.kfc.julianalmanza.kfc.Loggin">
+
+    <TextView
+        android:layout_width="220sp"
+        android:layout_height="wrap_content"
+        android:text="@string/bienvenido"
+        android:textSize="38sp"
+        android:gravity="center"
+        android:typeface="serif"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        />
+    <ImageView
+        android:layout_gravity="center"
+        android:layout_width="140sp"
+        android:layout_height="120sp"
+        android:layout_marginTop="10sp"
+        android:src="@drawable/coronel"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:layout_marginTop="15sp"
+        android:layout_marginLeft="15sp"
+        android:textColor="@color/ivory"
+        android:text="@string/user"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="19sp"
+        android:id="@+id/usuario_ingresar"
+        android:layout_marginLeft="15sp"
+        android:layout_marginRight="15sp"
+        android:textColor="@color/ivory"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:layout_marginTop="15sp"
+        android:layout_marginLeft="15sp"
+        android:textColor="@color/ivory"
+        android:text="@string/contraseña"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="19sp"
+        android:id="@+id/contraseña_ingresar"
+        android:layout_marginLeft="15sp"
+        android:layout_marginRight="15sp"
+        android:inputType="textPassword"
+        android:textColor="@color/ivory"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="160sp"
+            android:layout_height="wrap_content"
+            android:background="@color/whitesmoke"
+            android:layout_marginTop="40sp"
+            android:layout_marginLeft="15sp"
+            android:layout_marginRight="15sp"
+            android:textSize="23sp"
+            android:id="@+id/ingresar"
+            android:typeface="monospace"
+            android:text="@string/ingresar"
+            />
+
+        <Button
+            android:layout_width="160sp"
+            android:layout_height="wrap_content"
+            android:background="@color/whitesmoke"
+            android:layout_marginTop="40sp"
+            android:textSize="23sp"
+            android:id="@+id/registrar"
+            android:typeface="monospace"
+            android:text="@string/registrarse"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

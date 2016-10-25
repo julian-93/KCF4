@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <item
+        android:id="@+id/Miperfil"
+        android:title="Mi Perfil"/>
+
+    <item
+        android:id="@+id/MainActivity"
+        android:title="Menu Principal"/>
+    <item
+        android:id="@+id/Productos"
+        android:title="Productos"/>
+</menu>

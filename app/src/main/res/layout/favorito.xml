@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="15sp"
+        android:layout_marginRight="15sp"
+        android:layout_marginLeft="15sp"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/brown"
+            android:textSize="30sp"
+            android:gravity="center"
+            android:textColor="@color/whitesmoke"
+            android:id="@+id/nombre"
+            android:typeface="serif"
+            android:text="@string/megavariedad"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0sp"
+            android:textSize="17sp"
+            android:background="@color/lightgray"
+            android:id="@+id/descripcion"
+            android:textColor="@color/black"
+            android:text="@string/descripcion_megavariedad"
+            />
+
+    </LinearLayout>
+</LinearLayout>
